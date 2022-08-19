@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap Assignments/bootstrap.css">
+</head>
+
+<style>
+    #form-size {
+        background-color: rgb(211, 225, 243);
+        border: 2px solid rgb(111, 111, 243);
+        border-radius: 5px;
+        height: 410px;
+        width: 400px;
+        padding: 25px;
+        margin: auto;
+    }
+</style>
+
+<body>
+
+    <div class="container-lg">
+        <!-- start Navbar -->
+
+        <nav class="navbar navbar-light bg-dark">
+
+            <div class="container-fluid">
+                <nav class="nav">
+                    <a class="navbar-brand text-primary">Brand</a>
+
+                    <a class="text-white nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="text-white nav-link" href="#">Feature</a>
+                    <a class="text-white nav-link" href="#">Pricing</a>
+                    <a class="text-white nav-link" href="#">FAQs</a>
+                    <a class="text-white nav-link" href="#">About</a>
+                </nav>
+
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn me-md-2 bg-dark text-white border border-1" type="button">Login</button>
+                    <button class="btn bg-warning w-50" type="button">Sign-up</button>
+                </form>
+
+
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Carousel Slider  -->
+        <div id="maincarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./bootstrap-assets/nature1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./bootstrap-assets/nature2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./bootstrap-assets/nature3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./bootstrap-assets/nature4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./bootstrap-assets/nature5.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr>
+        <!-- End Carousel Slider  -->
+
+        <!-- Bootstrap Table  -->
+        <br>
+        <br>
+
+        <div class="container-sm">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="table-primary" scope="col">Most runs</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Player</th>
+                        <th scope="col">Span</th>
+                        <th scope="col">Mat</th>
+                        <th scope="col">Inns</th>
+                        <th scope="col">NO</th>
+                        <th scope="col">Runs</th>
+                        <th scope="col">HS</th>
+                        <th scope="col">Ave</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">SR Tendukar (INDIA)</th>
+                        <td>1989-2013</td>
+                        <td>200</td>
+                        <td>329</td>
+                        <td>33</td>
+                        <td>15921</td>
+                        <td>248*</td>
+                        <td>53.78</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">RT Ponting (AUS)</th>
+                        <td>1995-2012</td>
+                        <td>168</td>
+                        <td>287</td>
+                        <td>29</td>
+                        <td>13378</td>
+                        <td>257</td>
+                        <td>51.85</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">JH Kallis (ICCSA)</th>
+                        <td>1995-2013</td>
+                        <td>166</td>
+                        <td>280</td>
+                        <td>40</td>
+                        <td>13289</td>
+                        <td>224</td>
+                        <td>55.37</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">R Dravnd (ICC/INDIA)</th>
+                        <td>1996-2012</td>
+                        <td>164</td>
+                        <td>286</td>
+                        <td>32</td>
+                        <td>13288</td>
+                        <td>270</td>
+                        <td>52.31</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">AN COok (ENG)</th>
+                        <td>2006-2018</td>
+                        <td>161</td>
+                        <td>291</td>
+                        <td>16</td>
+                        <td>12472</td>
+                        <td>294</td>
+                        <td>45.35</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <hr>
+            <!-- End Bootstrap Table  -->
+
+            <!-- bootstrap Model -->
+
+
+            <!-- Modal Start  -->
+            <h5>Modal</h5>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Login to Website
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- modal header -->
+                        <div class="modal-header">
+                            <h5 class="modal-title">Welcome</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- modal body -->
+                        <div class="model-body">
+                            <form>
+
+                                <div class="p-3">
+                                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                        aria-describedby="basic-addon1" required>
+                                </div>
+                                <div class="p-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- modal footer  -->
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-primary">Login</button> -->
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <hr>
+            <!-- End bootstrap Modal -->
+
+
+            <!-- Design Bootstrap Form  -->
+            <div id="form-size">
+                <form action="">
+
+                    <h5 class="fw-bold fs-3">Sign Up</h5>
+                    <p class="fw-normal">Please fill in this form to create an account!</p>
+                    <!-- Name  -->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                                required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                                required>
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"
+                            required>
+                    </div>
+                    <!-- Password -->
+                    <div class="mb-3">
+                        <!-- <input type="password" class="form-control" id="inputPassword" placeholder="Password" required> -->
+                        <input type='password' id="password" placeholder="Password" name='pass' class="form-control"
+                            value='' data-bv-excluded="false" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type='password' id="password2" placeholder="Confirm password" name='password2'
+                            class="form-control" value='' data-bv-excluded="false" data-match="#password" required>
+                    </div>
+
+                    <!-- CheckBox  -->
+                    <div class="mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            I accept the <Sapn class="text-primary">Terms of Use</Sapn> & <Sapn class="text-primary">
+                                Privacy Policy</Sapn>
+                        </label>
+                    </div>
+
+                    <div class="mb-3">
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <!--End Bootstrap Form  -->
+
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- Card Code  -->
+
+        <div class="container-fluid d-flex justify-content-center">
+            <!-- card-1  -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./bootstrap-assets/famous-art-wallpaper-4.jpg" class="card-img-top" alt="nature-painting">
+                <div class="card-body">
+                    <h5 class="card-title">Nature Painting</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore More</a>
+                </div>
+            </div>
+            <!-- card-2  -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./bootstrap-assets/abstract-art.jpg" class="card-img-top" alt="nature-painting">
+                <div class="card-body">
+                    <h5 class="card-title">Nature Painting</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore More</a>
+                </div>
+            </div>
+            <!-- card-3  -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./bootstrap-assets/Cool-Wallpaper.jpg" class="card-img-top" alt="nature-painting">
+                <div class="card-body">
+                    <h5 class="card-title">Nature Painting</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+
+        <!-- Progress Bar & spinner  -->
+        <h5 class="text-center"> &#9886; Progress Bar &#9887;</h5>
+        <!-- Progress Bar  -->
+        <div class="container-sm ">
+            <div class="progress m-2">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%"></div>
+            </div>
+            <div class="progress m-2">
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"></div>
+            </div>
+            <div class="progress m-2">
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"></div>
+            </div>
+            <div class="progress m-2">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"></div>
+            </div>
+
+            <!-- Spinner  -->
+            <h5 class="text-center mt-5"> &#9886; Spinner &#9887;</h5>
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-secondary" role="status"></div>
+            <div class="spinner-border text-success" role="status"></div>
+            <div class="spinner-border text-danger" role="status"></div>
+            <div class="spinner-border text-warning" role="status"></div>
+            <div class="spinner-border text-info" role="status"></div>
+            <div class="spinner-border text-light" role="status"></div>
+            <div class="spinner-border text-dark" role="status"></div>
+        </div>
+
+    </div>
+    <script src="bootstrap.bundle.js">
+
+    </script>
+</body>
+
+</html>
